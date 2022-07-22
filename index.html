@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/icons8-login-arredondado-32.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <main class="main-login">
+        <section class="left-login">
+            <h1>Faça login <br> E entre para o nosso time!</h1>
+            <img src="imagem/design-team-animate.svg" class="left-login-img" alt="animação">
+        </section>
+
+        <section class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <form action="index.html" autocomplete="off" method="get" id="form-login">
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuário" maxlength="15" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                    </div>
+                </form>
+                <button  class="btn-login" type="submit" form="form-login">
+                    login
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
