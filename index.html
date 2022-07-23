@@ -18,14 +18,14 @@
         <section class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
-                <form action="index.html" autocomplete="off" method="get" id="form-login">
+                <form action="index.html" autocomplete="off" method="post" id="form-login" class="textfield">
                     <div class="textfield">
                         <label for="usuario">Usuário</label>
                         <input type="text" name="usuario" id="usuario" placeholder="Usuário" maxlength="15" required>
                     </div>
                     <div class="textfield">
                         <label for="senha">Senha</label>
-                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" maxlength="20" required>
                     </div>
                 </form>
                 <button  class="btn-login" type="submit" form="form-login">
